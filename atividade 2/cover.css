@@ -42,16 +42,6 @@ body {
  * Cabeçalho
  */
 
- #UFP {
-    height: 130
-    }
-.ufp {
-    margin-bottom: 2rem;
-}
-img {
-   height: 130
-   }
-
 
 .masthead {
   margin-bottom: 2rem;
@@ -59,6 +49,7 @@ img {
 
 .masthead-brand {
   margin-bottom: 0;
+  margin-left: 1rem;
 }
 
 .nav-masthead .nav-link {
@@ -75,7 +66,8 @@ img {
 }
 
 .nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
 }
 
 .nav-masthead .active {
