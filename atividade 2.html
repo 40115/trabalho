@@ -6,73 +6,54 @@
 </head>
 
 <body>
+ 
+  <body style="background-color:powderblue;">
+
+  
    
   
   <!--Isto é o collapse-->
 
-  <p>
-    <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"
-      aria-controls="multiCollapseExample1">Toggle first element</a>
-    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
-      aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
-    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
-      aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
-  </p>
-  <div class="row">
-    <div class="col">
-      <div class="collapse multi-collapse" id="multiCollapseExample1">
-        <div class="card card-body">
-
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="collapse multi-collapse" id="multiCollapseExample2">
-        <div class="card card-body">
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Isto é o modal-->
-
-  <ul class="nav">
-      
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Active</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#">Disabled</a>
-    </li>
-  </ul>
+  script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
   <!--Isto é o Nav-->
   <h1>Imagem</h1>
-  <form>
-      <input type="text" name="text1" id="text1"><br>
-      <input type="text" name="text2"id="text2">
-    
-    </form> 
+  <form className={classes.root} noValidate autoComplete="off">
+      <TextField id="standard-basic" label="Standard" />
+      <TextField id="filled-basic" label="Filled" variant="filled" />
+      <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+      <input type="text" name="presentation1"><br>
+       :<br>
+    </form>
   <img id="Titulo da imagem" src="Link da imagem">
-  <button id="Botao_1" class="botoescoloridos" name="botao1">alert
-    
-    
-  </button>
-  <button id="Botao_2" class="botoescoloridos"> Nao
-      
+  <button id="Botao_1" class="botoescoloridos" name="botao1" value="Alerta" ></button>
+  <div id="div1"></div>
+  <button id="Botao_2" class="botoescoloridos" onclick="changcolor"> Nao
   </button>
   <button id="Botao_3" class="botoescoloridos"> Adeus
   </button>
   <input id="username" type="text">
-  <script> 
+  <script >
+    function changcolor(){
+      
+     if(document.body.style.backgroundColor= "powderblue"){
+      document.body.style.backgroundColor="white"
+
+     }
+     else{
+      document.body.style.backgroundColor="powderblue"
+
+
+     }
+  }
+    
+  </script>
+
  
   
-  </script>
+ 
 </body>
 
 <html>
