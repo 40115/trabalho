@@ -1,0 +1,10 @@
+.botoescoloridos{
+font-family:arial;
+font-size: 14px;
+font: weight 799; ;
+}
+.botoescoloridos:active
+{
+background-color: black;
+
+}
