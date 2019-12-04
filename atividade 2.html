@@ -56,8 +56,8 @@
                       </ul> <!--Isto é o Nav-->
     <h1>Imagem</h1> 
         <img id="Titulo da imagem" src="gh">
-        <button id = "Botao_2" class = "botoescoloridos"> Nao
-                <input type='button' value='Generate' onclick='f1(this)' />
+        <button type="button" onclick="colorchange()"class = "botoescoloridos" >Change Color</button>
+                
         </button>
         <button id = "Botao_3" class = "botoescoloridos"> Adeus
         </button>
@@ -69,8 +69,28 @@
                 </p>
     </body>
     <script> 
-    function f1(objButton){  
-    alert(objButton.value);
-}
+    function colorchange(){
+      {
+        
+        var x;
+ 
+ var cor=prompt("selecione uma cor:\n 1-blue \n 2-green");
+  
+ switch(cor){
+case cor = 1:colorchange="blue";break;
+case cor = 2:colorchange="green";break;
+default: alert("insire uma numero valido");
+break;
+
+
+ }
+
+
+      }
+      
+      }
+      
+      
+      
     </script>
 <html>
