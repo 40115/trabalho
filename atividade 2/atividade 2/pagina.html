@@ -1,0 +1,79 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+
+  <title>Nossa Pagina</title>
+
+  <link href="stylePagina.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+  <div>
+    <header class="masthead mb-auto" style="
+        width: 1475px;
+        border-top-width: 10px;
+        margin-top: 10px;">
+      <div class="inner">
+        <h3 class="masthead-brand"></h3>
+        <nav class="nav nav-masthead justify-content-center" style="
+        width: 200px;
+    ">
+          <a class="nav-link" href="homepage.html" style="
+        padding-right: 0px;
+        margin-right: 8px;
+        margin-top: 8px;">Home</a>
+
+          <a class="nav-link active" href="pagina.html" style="
+        margin-top: 8px;
+        margin-right: 8px;">Projeto</a>
+
+          <a class="nav-link" href="contactos.html">Contactos</a>
+        </nav>
+    </header>
+
+    <main class="mastmain">
+      <button id="modal-btn" class="button">Click Here</button>
+
+      <div id="my-modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Modal Header</h2>
+          </div>
+          <div class="modal-body">
+            This is my modal
+            <form>
+              <p><label for="exampleFormControlTextarea1">Calculadora</label></p>
+              <input id="operand1" type="text" />
+              <input id="operand2" type="text" />
+              <input id="result" type="text" />
+              <button onclick="calculate()">Calculate</button>
+              <a data-controls-modal="my-modal" data-backdrop="static" data-keyboard="false" href="#">
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="buttonClose" data-dismiss="modal">Hide Modal</button>
+          </div>
+        </div>
+        <script src="modal.js"> </script>
+    </main>
+
+
+    <footer class="mastfoot mt-auto">
+      <div class="inner">
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+</body>
+<html>
