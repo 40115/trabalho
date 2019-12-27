@@ -1,0 +1,166 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+
+  <title>Projeto</title>
+
+  <link href="stylePagina.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+  <div>
+    <header class="masthead mb-auto" style="
+        width: 1475px;
+        border-top-width: 10px;
+        margin-top: 10px;">
+      <div class="inner">
+        <h3 class="masthead-brand"></h3>
+        <nav class="nav nav-masthead justify-content-center" style="
+        width: 200px;
+    ">
+          <a class="nav-link" href="homepage.html" style="
+        padding-right: 0px;
+        margin-right: 8px;
+        margin-top: 8px;">Home</a>
+
+          <a class="nav-link active" href="pagina.html" style="
+        margin-top: 8px;
+        margin-right: 8px;">Projeto</a>
+
+          <a class="nav-link" href="contactos.html">Contactos</a>
+        </nav>
+    </header>
+
+    <div class="mastmain">
+
+      <h1>Quem somos?</h1>
+
+      <p id="texto-Ruben">O meu nome Ruben José Saraiva Pinto, aluno da Universidade Fernando Pessoa, estudo aqui para
+        obter uma licenciatura em Engenharia Informática e desenvolver competências úteis e necessárias para o mercado
+        de trabalho.
+        Com isso, a dificuldade do curso está adaptado para as necessidades para os alunos que desejam frequentá-lo.
+        Nos meus tempos livres, passo o meu tempo no computador a jogar videojogos de diversos tipos como estratégia,
+        aventura e ação, e se não estiver ocupado nisto, visualizo videos na plataforma Youtube. O conteúdo destes
+        podem variar, de tutoriais educativos ate acontecimentos recentes que terão consequências no futuro. Nesta
+        forma, os meus interesses tem uma base intelectual ou, noutras palavras, a procura de conhecimento e a
+        exploração do desconhecido,porque é importante estar informado nas várias matérias.
+        Até ao ano corrente, eu era escuteiro no agrupamento 994 Caxinas e participava no movimento escutista.
+        Eu tinha um papel ativo neste e tinha um bom interesse no desenvolvimento do agrupamento e no movimento, mas
+        com as responsabilidades de um novo estudante universitário impedia-me de manter este papel e focar-me nos
+        meus estudos ao mesmo tempo, com isso saí deste.
+        Noutra onda de pensamento, eu tenho também um interesse particular em jogos como a sueca, bilhar, entre outros
+        devido à oportunidade de conectar-me com os amigos e familiares mais afastados e facilitar a conversa entre
+        eles, por isso considero este uma ferramenta importante para o meu futuro, porque muitas das vezes os membros
+        de grupo de trabalho são pessoas desconhecidas ou que nunca tivemos uma conversa com estes, por isso estes
+        jogos dão uma oportunidade para conhecer e desenvolver o trabalho de uma forma mais informada entre os
+        elementos.</p>
+
+      <p id="texto-Joao">
+        Sou o João Pedro Amorim Melo, tenho vinte anos e sou aluno da Universidade Fernando Pessoa.
+        Estou neste momento a estudar no ensino superior no curso de Engenharia Informática. Decidi entrar neste curso
+        com intuito de desenvolver as minhas competências e procurar mais conhecimento sobre esta área da tecnologia.
+        Atualmente, estou a gostar muito da minha experiência na Universidade Fernando Pessoa. Sinto-me bastante
+        empenhado e empolgado por todas as coisas que estou aprender.
+        As áreas que me intrigam mais na tecnologia são os computadores, mais concretamente, a programação de jogos e a
+        Inteligência Artificial.
+        Gostaria e espero futuramente trabalhar algo relacionado com a Imersão Total, a nível de programação e não de
+        hardware.
+        A Imersão Total é um tema ainda pouco explorado, mesmo havendo óculos que permitem ter uma experiência de
+        realidade aumentada, eu pessoalmente gostaria de explorar muito mais essa área.
+        Nos meus tempos livres faço várias coisas, como por exemplo, jogo videojogos de vários tipos, estou com amigos
+        ou familiares, também passo muito tempo no computador a desenvolver um projeto, a ver vídeos na plataforma
+        Youtube ou a ler jornais/revistas de tecnologias online.
+      </p>
+
+      <h1>Algumas funcionalidades</h1>
+
+    </div>
+
+    <footer class="mastfoot mt-auto">
+      <div class="inner">
+        <button id="modal-btn" class="button">Clique Aqui</button>
+
+        <div id="my-modal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+              <h2>Modal</h2>
+            </div>
+            <div class="modal-body">
+              Calculadora
+              <form>
+                <p><label for="exampleFormControlTextarea1">Multiplicação entre dois números</label></p>
+                <input id="operand1" type="text" />
+                <input id="operand2" type="text" />
+                <input id="result" type="text" />
+                <button onclick="calculate()">Calculate</button>
+                <a data-controls-modal="my-modal" data-backdrop="static" data-keyboard="false" href="#"></a>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" id="buttonClose" data-dismiss="modal">Hide Modal</button>
+            </div>
+            <script src="modal.js"> </script>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button onclick="myDropdown()" class="dropbtn">Background Colors</button>
+          <div id="myDropdown" class="dropdown-content">
+            <button onclick="changeDark()" class="dark" type="button"> Background Dark</button>
+            <button onclick="changeRed()" class="red" type="button"> Background Red</button>
+            <button onclick="changeOrange()" class="white" type="button"> Background White</button>
+          </div>
+        </div>
+        <script src="nav.js"></script>
+        <link href="nav.css" rel="stylesheet">
+        <div class="textUppercase">
+          <button onclick="upper1Case()" class="uppercasebtn">1º Texto em maiúsculas</button>
+          <button onclick="upper2Case()" class="uppercasebtn">2º Texto em maiúsculas</button>
+        </div>
+        <button class="accordion">
+          Sobre a UFP
+        </button>
+        <div class="panel">
+          <nav>
+            Saiba mais aqui.
+          <a id = "ufplink"href="https://www.ufp.pt">UFP</a>
+          </nav>
+          <img id="UFPlogo"
+            src="https://upload.wikimedia.org/wikipedia/commons/0/03/Universidade_Fernando_Pessoa_logo.jpg">
+          <br>
+          A Universidade Fernando Pessoa (UFP), instituída pela Fundação Ensino e Cultura “Fernando Pessoa” (FFP) e
+          reconhecida de interesse público pelo Decreto-Lei nº 107/96, de 31 de Julho, é o resultado dum projecto
+          inovador de ensino superior, iniciado nos anos de 1980, através do Instituto Superior de Ciências da
+          Informação e da Empresa, e do Instituto Erasmus de Ensino Superior, que lhe serviram de base estruturante e
+          cuja antiguidade de graus e diplomas herdou, nos termos do Artigo 7º daquele decreto.
+
+          Com o lema Nova et Nove (inovar no conhecimento e nos métodos de ensinar), a UFP tem como objectivos o
+          ensino, a investigação, a extensão comunitária e a prestação de serviços nos domínios da formação oferecida
+          pelas suas faculdades.
+        </div>
+      </div>
+      <link href="collapse.css" rel="stylesheet">
+      <script src="collapse.js"></script>
+  </div>
+  </footer>
+  </div>
+</body>
+<html>
