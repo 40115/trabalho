@@ -97,7 +97,6 @@
     <footer class="mastfoot mt-auto">
       <div class="inner">
         <button id="modal-btn" class="button">Clique Aqui</button>
-
         <div id="my-modal" class="modal">
           <div class="modal-content">
             <div class="modal-header">
@@ -111,7 +110,7 @@
                 <input id="operand1" type="text" />
                 <input id="operand2" type="text" />
                 <input id="result" type="text" />
-                <button onclick="calculate()">Calculate</button>
+                <button id="calculateButton" type="button">Calculate</button>
                 <a data-controls-modal="my-modal" data-backdrop="static" data-keyboard="false" href="#"></a>
               </form>
             </div>
@@ -141,7 +140,7 @@
         <div class="panel">
           <nav>
             Saiba mais aqui.
-          <a id = "ufplink"href="https://www.ufp.pt">UFP</a>
+            <a id="ufplink" href="https://www.ufp.pt">UFP</a>
           </nav>
           <img id="UFPlogo"
             src="https://upload.wikimedia.org/wikipedia/commons/0/03/Universidade_Fernando_Pessoa_logo.jpg">

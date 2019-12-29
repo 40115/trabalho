@@ -4,6 +4,7 @@ const modal = document.querySelector('#my-modal');
 const modalBtn = document.querySelector('#modal-btn');
 const closeBtnX = document.querySelector('.close');
 const closeBtn = document.querySelector('#buttonClose');
+const calculateButton=document.querySelector("#calculateButton"); 
 
 
 // Events
@@ -12,6 +13,7 @@ closeBtnX.addEventListener('click', closeModal);
 closeBtn.addEventListener('click', closeModal);
 window.addEventListener('click', outsideClick);
 
+calculateButton.addEventListener('click',function(){calculate()});
 
 // Open
 function openModal() {
@@ -32,9 +34,8 @@ function outsideClick(e) {
 }
 
 //Calculate
-function calculate() {
-  var op1 = parseInt(document.getElementById("operand1").value)
-  var op2 = parseInt(document.getElementById("operand2").value)
-  alert (document.getElementById("result").value = op1 * op2)
+function calculate(event) {
+  var op1 = parseInt(document.getElementById("operand1").value);
+  var op2 = parseInt(document.getElementById("operand2").value);
+  document.getElementById("result").value = (op1 * op2);
 }
-
